@@ -1,1 +1,31 @@
 @charset "utf-8";
+
+//image home page
+// .home-image-wrapper {
+//   padding-top: 5%;
+//   position: relative;
+//   top: 50%;
+// }
+
+// .home-hero {
+//   background-color: $grey-lighter;
+// }
+
+// .image-border {
+//   border: 0.25em solid white;
+// }
+
+//Home Hero.
+
+.home-hero {
+  background-color: $grey-lighter;
+
+  .home-image-wrapper {
+    position: relative;
+    top: 50%;
+  }
+
+  .image-border {
+    border: 0.5em solid white;
+  }
+}

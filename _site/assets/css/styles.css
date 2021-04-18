@@ -3861,4 +3861,12 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus { color: #ee2049 !imp
 
 .footer { background-color: #fafafa; padding: 3rem 1.5rem 6rem; }
 
+.home-hero { background-color: #dbdbdb; }
+
+.home-hero .home-image-wrapper { position: relative; top: 50%; }
+
+.home-hero .image-border { border: 0.5em solid white; }
+
+*:not(path):not(g) { color: rgba(39, 35, 35, 0.9) !important; outline: solid 0.1rem rgba(149, 145, 145, 0.9) !important; box-shadow: none !important; }
+
 /*# sourceMappingURL=styles.css.map */
