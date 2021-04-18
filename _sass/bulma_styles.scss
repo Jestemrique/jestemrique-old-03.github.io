@@ -1,2 +1,25 @@
 @charset "utf-8";
+
+//Typography
+@import url('https://fonts.googleapis.com/css2?family=Noticia+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@200;400&display=swap');
+
+@import '../node_modules/bulma/sass/utilities/_all.sass';
+
+//Body font
+$family-serif: 'Noticia Text', serif;
+$family-primary: $family-serif;
+$body-font-size: 1.3em;
+$body-color: $grey-dark;
+
+//Titles and subtitles
+$title-family: 'Exo', sans-serif;
+$title-color: $grey-dark;
+
+$subtitle-family: 'Exo', sans-serif;
+$subtitle-color: $grey-dark;
+
+//Links
+$link: $grey-dark;
+
 @import '../node_modules/bulma/bulma.sass';
