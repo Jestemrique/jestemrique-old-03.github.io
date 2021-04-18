@@ -1,0 +1,9 @@
+<nav class="level is-hidden-touch">
+    {% for item in site.data.navigation %}
+    <div class="level-item has-text-centered">
+        <a class="navbar-item has-text-centered" href="{{ item.link }}">
+            {{ item.name }}
+        </a>
+    </div>
+    {% endfor %}
+</nav>
