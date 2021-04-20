@@ -3861,10 +3861,16 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus { color: #ee2049 !imp
 
 .footer { background-color: #fafafa; padding: 3rem 1.5rem 6rem; }
 
-.home-hero { background-color: #2f4a5c; }
+.background-red { background-color: red; min-height: 400px; }
 
-.home-hero .home-image-wrapper { position: relative; top: 60%; }
+.hero-wrapper { background-color: #2f4a5c; }
 
-.home-hero .image-border { border: 0.5em solid white; }
+.home-image-wrapper { position: relative; top: 60%; max-width: 450px; margin: auto; }
+
+.image-border { border: 0.5em solid white; }
+
+.is-fixed-bottom { position: fixed; bottom: 0px; }
+
+*:not(path):not(g) { color: rgba(39, 35, 35, 0.9) !important; outline: solid 0.1rem rgba(149, 145, 145, 0.9) !important; box-shadow: none !important; }
 
 /*# sourceMappingURL=styles.css.map */
