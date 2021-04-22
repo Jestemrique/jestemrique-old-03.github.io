@@ -12,11 +12,20 @@
 </head>
 
 <body>
-    <div class="container">
-        {% include navigation.html %}
-        {% include navigation-mobile.html %}
-        {{ content }}
+
+
+    <div class="columns">
+        <div class="sidebar-left column is-one-quarter">
+            {% include site-header.html %}
+            {% include navigation.html %}
+        </div>
+        <div class="main-content column">
+            <h1 class="title">{{page.title}}</h1>
+            {{ content }}
+        </div>
+
     </div>
+
     <script src="/assets/js/bulma.js"></script>
 </body>
 

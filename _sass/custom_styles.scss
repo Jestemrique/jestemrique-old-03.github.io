@@ -2,43 +2,6 @@
 
 $page-hero-background: #2f4a5c;
 
-// //Home Hero.
-// .home-hero {
-//   background-color: $page-hero-background;
-
-//   .home-image-wrapper {
-//     position: relative;
-//     top: 60%;
-//     max-width: 450px;
-//     margin: auto;
-//   }
-
-//   .image-border {
-//     border: 0.5em solid white;
-//   }
-// }
-
-.background-red {
-  background-color: red;
-  min-height: 400px;
-}
-
-.hero-wrapper {
-  background-color: $page-hero-background;
-}
-.home-image-wrapper {
-  position: relative;
-  top: 60%;
-  max-width: 450px;
-  margin: auto;
-}
-
-.image-border {
-  border: 0.5em solid white;
-}
-
-//Helpers
-.is-fixed-bottom {
-  position: fixed;
-  bottom: 0px;
+.main-content {
+  overflow-y: auto;
 }
