@@ -3863,6 +3863,8 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus { color: #ee2049 !imp
 
 .main-content { overflow-y: auto; }
 
+.sidebar-left { background: url("/assets/images/cadiz-mar-769w.png"); background-position-x: center; background-position-y: center; background-size: cover; background-attachment: initial; background-origin: initial; background-clip: initial; }
+
 *:not(path):not(g) { color: rgba(39, 35, 35, 0.9) !important; outline: solid 0.1rem rgba(149, 145, 145, 0.9) !important; box-shadow: none !important; }
 
 /*# sourceMappingURL=styles.css.map */

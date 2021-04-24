@@ -2,6 +2,23 @@
 
 $page-hero-background: #2f4a5c;
 
+// .sticky {
+//   position: sticky;
+//   top: 1px;
+// }
+
 .main-content {
   overflow-y: auto;
+}
+
+.sidebar-left {
+  background: url('/assets/images/cadiz-mar-769w.png');
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+  //background-repeat-x: initial;
+  //background-repeat-y: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
 }
