@@ -3867,4 +3867,6 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus { color: #ee2049 !imp
 
 *:not(path):not(g) { color: rgba(39, 35, 35, 0.9) !important; outline: solid 0.1rem rgba(149, 145, 145, 0.9) !important; box-shadow: none !important; }
 
+.back-grey { background-color: grey; }
+
 /*# sourceMappingURL=styles.css.map */
